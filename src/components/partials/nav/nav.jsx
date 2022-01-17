@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 
 export const Nav = (props) => {
   return (
@@ -5,7 +6,7 @@ export const Nav = (props) => {
       <ul>
         {props && props.navItems && props.navItems.map((value, index) => {
           return (
-            <li key={index}><a href={value.path}>{value.name}</a></li>
+            <li key={index}><NavLink to={value.path}>{value.name}</NavLink></li>
           )
         })}
       </ul>
