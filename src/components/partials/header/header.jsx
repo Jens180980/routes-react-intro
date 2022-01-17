@@ -7,9 +7,9 @@ const arrNav = [
 
 export const Header = (props) => {
   return (
-    <Header>
-      <h1>{props.pagetitle ? props.pagetitle : 'My New React App'}</h1>
+    <header>
+      <h1>Test</h1>
       <Nav navItems={arrNav} />
-    </Header>
+    </header>
   )
 }
