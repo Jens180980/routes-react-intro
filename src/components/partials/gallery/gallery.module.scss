@@ -1,0 +1,9 @@
+.galleryWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    figcaption {
+        text-align: center;
+    }
+
+}

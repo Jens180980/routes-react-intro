@@ -2,7 +2,9 @@ import { Nav } from '../nav/nav.jsx'
 
 const arrNav = [
   { name: 'Forside', path: '/'},
-  { name: 'Om os', path: '/about'}
+  { name: 'Om os', path: '/about'},
+  { name: 'Produkter', path: '/products'},
+  { name: 'Kontakter', path: '/contacts'}
 ]
 
 export const Header = (props) => {
